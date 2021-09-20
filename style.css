@@ -7,6 +7,9 @@ body{
     display: flex;
     justify-content: space-around;
 }
+.menu:hover{
+    background-color: #242222;
+}
 .logo{
     height: 50px;
 }
@@ -20,14 +23,15 @@ div>div{
 div>div:hover{
     background-color: darkgray;
     cursor: pointer;
+    border-radius: 3px;
 }
 div:hover{
     color: white;
 }
 .img{
-    background-image: "./logo_white.png";
-}
-.img:hover{
-    background-image: "./logo.png";
+    background-image: url("./logo_white.png");
+    height: 50px;
+    width: 42px;
+    padding: 0px;
 }
 
