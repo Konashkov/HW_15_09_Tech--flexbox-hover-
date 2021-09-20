@@ -12,21 +12,24 @@ body{
 }
 .logo{
     height: 50px;
+    justify-self: left;
 }
 span{
     color: gray;
     font-size: 40px;
 }
-div>div{
-    padding:3px;
+.elements{
+    display: flex;
+    justify-content: space-around;
 }
-div>div:hover{
+.elements>div{
+    margin:7px;
+}
+.phone:hover,
+div.elements>div:hover{
     background-color: darkgray;
     cursor: pointer;
     border-radius: 3px;
-}
-div:hover{
-    color: white;
 }
 .img{
     background-image: url("./logo_white.png");
