@@ -24,4 +24,10 @@ div>div:hover{
 div:hover{
     color: white;
 }
+.img{
+    background-image: "./logo_white.png";
+}
+.img:hover{
+    background-image: "./logo.png";
+}
 
